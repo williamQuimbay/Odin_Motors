@@ -7,9 +7,23 @@
     <string name="mail">Correo electrónico</string>
     <string name="password">Contraseña</string>
     <string name="usuario">Nombre del Usuario</string>
-    <string name="btnEntrar">Entrar</string>
+    <string name="btnEntrar">Iniciar sesion</string>
     <string name="name_splash">Nombre completo</string>
     <string name="telefono">+57 300 123 4567</string>
     <string name="editar_perfil">Editar perfil</string>
     <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="olvidoContasena">Has olvidado tu contraseña?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="registro_de_usuario">Registro de usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="usuario_registro">Usuario</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="informacion_personal">Informacion personal</string>
+    <string name="guardado">Guardado</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="lista_de_deseados">Lista de deseados</string>
 </resources>

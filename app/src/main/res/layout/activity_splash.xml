@@ -5,37 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@color/background"
     tools:context=".activities.SplashActivity">
 
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="373dp"
-        android:layout_height="288dp"
-        android:src="@drawable/logo_withe_sin"
+        android:layout_width="428dp"
+        android:layout_height="348dp"
+        android:src="@drawable/ic_logo_redondo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.455" />
-
-    <TextView
-        android:id="@+id/appName"
-        android:layout_width="268dp"
-        android:layout_height="64dp"
-        android:text="@string/title_splash"
-        android:textAlignment="center"
-        android:textColor="@color/textoTitle"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.279" />
 
     <TextView
         android:id="@+id/tagline"
@@ -44,7 +28,7 @@
         android:layout_marginTop="404dp"
         android:text="@string/Mensaje_Bienvenida"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:textColor="@color/texto"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

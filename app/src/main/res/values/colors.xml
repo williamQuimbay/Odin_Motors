@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="textoTitle">#AD7717</color>
-    <color name="textoSubTitle">#100303</color>
+    <color name="background">#0a2342</color>
+    <color name="texto">#e3d6d6</color>
+    <color name="btnColor">#d70606</color>
+    <color name="btnFacebook">#1c4d89</color>
+    <color name="btnGoolge">#e3d6d6</color>
+    <color name="btnTextoGoogle">#000000</color>
+
+
 <!--    colores gradiante-->
     <color name="gold_light">#191919</color>
     <color name="gold_dark">#CCA850</color>
