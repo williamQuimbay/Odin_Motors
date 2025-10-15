@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">Odin Motors</string>
-    <string name ="title_splash">ODIN MOTORS</string>
+    <string name="title_splash">ODIN MOTORS</string>
     <string name="Mensaje_Bienvenida">Prepárate para conquistar cada ruta con estilo, potencia y tecnología</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrer">Registrarse</string>
     <string name="mail">Correo electrónico</string>
     <string name="password">Contraseña</string>
+    <string name="usuario">Nombre del Usuario</string>
     <string name="btnEntrar">Entrar</string>
-    <string name="registrer">Registrarse</string>
     <string name="name_splash">Nombre completo</string>
+    <string name="telefono">+57 300 123 4567</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>
