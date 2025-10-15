@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish() // Evita que el usuario regrese al splash
-       }, 4000) // 2 segundos de espera
+       }, 3000) // 2 segundos de espera
    }
 
 }
