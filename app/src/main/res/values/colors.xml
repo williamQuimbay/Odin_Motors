@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="splash_background">#fa6351</color>
+    <color name="textoTitle">#AD7717</color>
+<!--    colores gradiante-->
+    <color name="gold_light">#191919</color>
+    <color name="gold_dark">#B8860B</color>
+    <color name="deep_red">#ff0400</color>
+
 
 </resources>

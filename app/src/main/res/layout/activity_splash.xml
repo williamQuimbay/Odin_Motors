@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/gradient"
     tools:context=".activities.SplashActivity">
 
 
@@ -25,9 +25,9 @@
         android:id="@+id/appName"
         android:layout_width="268dp"
         android:layout_height="64dp"
-        android:text="ODIN MOTORS"
+        android:text="@string/title_splash"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:textColor="@color/textoTitle"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
         android:layout_width="372dp"
         android:layout_height="86dp"
         android:layout_marginTop="404dp"
-        android:text="Prepárate para conquistar cada ruta con estilo, potencia y tecnología"
+        android:text="@string/Mensaje_Bienvenida"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"

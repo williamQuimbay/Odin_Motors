@@ -6,29 +6,17 @@
     android:padding="24dp"
     android:background="@drawable/gradient">
 
-<!--    <TextView-->
-<!--        android:id="@+id/title"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="88dp"-->
-<!--        android:text="Registro"-->
-<!--        android:textColor="@color/taxto"-->
-<!--        android:textSize="24sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <EditText
-        android:id="@+id/inputName"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
-        android:hint="@string/name_splash"
-        android:padding="12dp"
-        android:textColor="@android:color/black"
+        android:layout_marginTop="72dp"
+        android:text="@string/iniciar_sesion"
+        android:textColor="@color/textoTitle"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,19 +24,20 @@
         android:id="@+id/inputEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         android:hint="@string/mail"
         android:inputType="textEmailAddress"
         android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/inputName"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginTitle" />
 
     <EditText
         android:id="@+id/inputPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="60dp"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="12dp"
@@ -58,12 +47,11 @@
         app:layout_constraintTop_toBottomOf="@id/inputEmail" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
-        android:backgroundTint="#8B0000"
-        android:text="@string/registrer"
+        android:layout_marginTop="184dp"
+        android:text="@string/btnEntrar"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
